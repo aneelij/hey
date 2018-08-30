@@ -33,7 +33,7 @@ def send_email():
                                 
     subject="python邮件测试"#主题     
     content="这是我使用python smtplib及email模块发送的邮件"#正文
-    #msg = MIMEText(content)
+
     msg = MIMEMultipart()
     msg['Subject'] = subject
     msg['From'] = msg_from
