@@ -7,7 +7,7 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-
+# update
 def send(apiUrl,data):
     data_json = json.dumps(data)
     headers = {'Content-Type': 'application/json'} # 设置数据为json格式，很重要
